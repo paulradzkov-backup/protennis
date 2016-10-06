@@ -1,0 +1,70 @@
+.push-lr,
+.push-r,
+.push-l,
+.content .side-r,
+.ratings  {zoom:1;position:relative;}
+.mainmenu ul li,
+.pagination,
+.item,
+.popup .inner {zoom:1}
+.page-search {left:-130px;}
+html>/**/body .page-search {left:0px;}
+/* IE6 only*/
+* html .restore-pass {right:10px;} 
+* html .mp-news {zoom:1; position:relative;width:580px;}
+* html .n-links {right:250px;}
+* html .shedules {overflow:hidden;}
+* html .tablo {height:1px;}
+* html .twitter, * html .rss, * html  .discuss {padding-right:25px;}
+* html .tools .inputbox {height:12px;}
+* html .minigalery  {width:830px;} 
+* html .tools {right:10px;}
+
+/* PNGfix http://www.twinhelix.com/css/iepngfix/ */
+* html .logo a,
+* html .mainmenu,
+* html .let_me_in,
+* html .twitter,
+* html .rss,
+* html .discuss,
+* html .logged ul li a,
+* html .cuselFrameRight,
+* html .rating,
+* html .ratingline ,
+* html .popup,
+* html .popup .inner,
+* html .status,
+* html .sort-asc,
+* html .sort-desc,
+* html .tablo .header-icon,
+* html .widepic .overlay
+{behavior: url(css/iepngfix.htc);} /* Note: this path is relative to the HTML file being viewed, not the CSS file it is called from. */
+
+
+
+/* Progressive Internet Explorer CSS3 readme http://css3pie.com/ */
+
+.button  {border:none;padding:6px 20px 7px;margin:0;height:30px;font-size:12px;color:#333333;text-shadow:0 1px 1px #FFF;vertical-align:middle;overflow:visible;} 
+.button, button {background-position:0px -110px, 100% -20px;}
+.button:hover, button:hover {background-position:0px -140px, 100% -50px;}
+.button:active, button:active {background-position:0px -170px, 100% -80px;}
+
+.button {background:url("../images/interface.png") no-repeat 100% -20px !important;}
+.button {-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/btn-norm.png', sizingMethod='crop')";} /* Now lets make it IE8 Multi-background images */
+.button {filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/btn-norm.png', sizingMethod='crop');} /* for IE7 and IE6 */
+.button:hover {background:url("../images/interface.png") no-repeat 100% -50px !important;}
+.button:hover {-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/btn-hover.png', sizingMethod='crop')";} 
+.button:hover {filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/btn-hover.png', sizingMethod='crop');} 
+/* :active не работает для инпутов в IE :( */
+.button:active {background:url("../images/interface.png") no-repeat 100% -50px !important;}
+.button:active {-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/btn-active.png', sizingMethod='crop')";} 
+.button:active {filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/btn-active.png', sizingMethod='crop');}
+.button {position:relative;behavior: url(css/PIE.htc);box-shadow:0px 1px 1px #DDD;} /* Note: this path is relative to the HTML file being viewed, not the CSS file it is called from. */
+
+.inputbox  {border:1px solid #CCCCCC;padding:6px 4px;margin:0;background:url("../images/interface.png") no-repeat 0px -330px;color:#333333;font-size:13px;vertical-align:middle;}
+
+.inputbox {position:relative;behavior: url(css/PIE.htc);} 
+.t-area {position:relative;behavior: url(css/PIE.htc);} 
+.loginform {behavior: url(css/PIE.htc);box-shadow:3px 3px 1px #CCC;} 
+.login-pane .active {behavior: url(css/PIE.htc);} 
+.mainpage .loginform {box-shadow:none;}
